@@ -1,0 +1,33 @@
+{
+  "name": "direquire",
+  "description": "recursive require",
+  "version": "0.0.3",
+  "main": "lib/direquire.js",
+  "author": {
+    "name": "geta6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geta6/direquire.git"
+  },
+  "main": "direquire",
+  "keywords": [
+    "require"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "*"
+  },
+  "license": "MIT",
+  "readme": "  direquire - enable directory recursive require.\n\n\n## Requirement\n\n  * NodeJS\n\n\n## Quick Start\n\n  Start coding:\n\n    $ npm install direquire\n\n  Include in your project\n\n    direquire = require('direquire');\n\n\n## How to use\n\n\n\n\tdirequire('./hoge');\n",
+  "readmeFilename": "README.md",
+  "_id": "direquire@0.0.2",
+  "dist": {
+    "shasum": "f31474b68e82b60f5b03ec9909de0ddcd74dbf3c"
+  },
+  "_from": "direquire@",
+  "_resolved": "https://registry.npmjs.org/direquire/-/direquire-0.0.1.tgz",
+  "bugs": {
+    "url": "https://github.com/geta6/direquire/issues"
+  }
+}
