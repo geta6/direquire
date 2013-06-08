@@ -1,3 +1,3 @@
-direquire = require '../lib/direquire.js'
+direquire = require '../'
 
 console.log direquire './modules'

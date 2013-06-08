@@ -10,7 +10,6 @@
     "type": "git",
     "url": "https://github.com/geta6/direquire.git"
   },
-  "main": "direquire",
   "keywords": [
     "require"
   ],
