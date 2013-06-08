@@ -1,9 +1,8 @@
-  direquire - enable directory recursive require.
-
+  direquire enables to require scripts recursive.
 
 ## Requirement
 
-  * NodeJS
+  * node.js
 
 
 ## Quick Start
@@ -12,11 +11,11 @@
 
     $ npm install direquire
 
-  Include in your project
+  Include in your project:
 
     direquire = require('direquire');
 
-  Use
+  Use:
 
     var module = direquire('./modules');
 
@@ -24,8 +23,8 @@
 ## How to use
 
 
-  module named `exports.modulename`.
-  
+  module named `exports.moduleName`.
+
   nested module named `directory name`.
 
   Example:
@@ -47,7 +46,7 @@
     direquire('./modules');
 
   Returned:
-  
+
     {
       module1: {
         Module11: [Function],
