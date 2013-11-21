@@ -1,15 +1,16 @@
-  direquire enables to require scripts recursive.
+# direquire
 
-## Requirement
+  require node scripts recursive.
 
-  * node.js
+  ![](https://nodei.co/npm/direquire.png)
 
+  ![](https://travis-ci.org/geta6/direquire.png)
 
-## Quick Start
+## Usage
 
   Start coding:
 
-    $ npm install direquire
+    $ npm i direquire
 
   Include in your project:
 
@@ -19,13 +20,11 @@
 
     var module = direquire('./modules');
 
-
 ## How to use
 
+  module named by object name e.g. `exports.moduleName`.
 
-  module named `exports.moduleName`.
-
-  nested module named `directory name`.
+  nested module named by directory name.
 
   Example:
 
@@ -39,13 +38,12 @@
     │   └── module22.coffee (exports.module22 = ->)
     └── module2.coffee      (exports.module2 = ->)
 
-  ※ `module2.coffee` exports the same name as directory.
-
   Execute:
 
-    direquire('./modules');
+    var modules = direquire('./modules');
+    console.log(modules);
 
-  Returned:
+  Returns:
 
     {
       module1: {
