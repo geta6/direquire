@@ -18,7 +18,7 @@ direquire = (dir) ->
     if fs.statSync(filepath).isDirectory()
       unless (path.basename filepath).match /^\./
         modules[path.basename filepath] = direquire filepath
-    else if /\.(coffee|js|json)/.test filepath
+    else if /^[^\.].*\.(coffee|js|json)$/.test list
       for name, body of require filepath
         if typeof modules[name] isnt 'undefined'
           body[key] = val for key, val of modules[name]
