@@ -6,6 +6,7 @@
 
   ![](https://travis-ci.org/geta6/direquire.png)
 
+
 ## Usage
 
   Start coding:
@@ -19,6 +20,7 @@
   Use:
 
     var module = direquire('./modules');
+
 
 ## How to use
 
